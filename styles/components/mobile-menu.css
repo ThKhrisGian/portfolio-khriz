@@ -1,0 +1,39 @@
+.mobile-menu {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  background-color: var(--clr-dark);
+}
+
+.mobile-menu__nav {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  color: var(--clr-slate600);
+  font-size: var(--size-lg);
+  transition: color 0.3s;
+}
+
+.mobile-menu__link:hover {
+  color: var(--clr-rose);
+}
+
+.mobile-menu__line {
+  border: 1px var(--clr-light) solid;
+  width: 3rem;
+}
+
+.mobile-menu__sun {
+  color: var(--clr-slate600);
+  height: 2rem;
+  width: 2rem;
+}
